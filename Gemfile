@@ -50,3 +50,7 @@ group :test do
 	gem 'capybara', '2.4.4'
 end
 
+group :production do
+  gem 'pg'
+end
+
